@@ -2,7 +2,7 @@ package com.sangkon.api.service;
 
 import com.sangkon.api.exception.CustomException;
 import com.sangkon.common.enums.CodeEnum;
-import com.sangkon.common.enums.service.CommonService;
+import com.sangkon.common.service.CommonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

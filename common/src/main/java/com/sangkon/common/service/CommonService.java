@@ -1,4 +1,4 @@
-package com.sangkon.common.enums.service;
+package com.sangkon.common.service;
 
 import org.springframework.stereotype.Service;
 

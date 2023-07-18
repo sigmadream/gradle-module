@@ -23,8 +23,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation project(path: ':')
-	implementation project(path: ':')
+	runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'org.postgresql:postgresql'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -36,4 +36,3 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-tasks.register('prepareKotlinBuildScriptModel'){}
