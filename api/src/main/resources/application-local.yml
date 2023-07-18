@@ -1,4 +1,4 @@
-profile-name: prod
+profile-name: local
 spring:
   main:
     allow-bean-definition-overriding: true
